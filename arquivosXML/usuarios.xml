@@ -1,0 +1,60 @@
+<Lista>
+  <Usuario>
+    <login>mark</login>
+    <senha>m@rk</senha>
+    <nome>Mark Zuckerberg</nome>
+    <endereco>Palo Alto, California</endereco>
+    <email>mark@facebook.com</email>
+    <ID__USUARIO>1</ID__USUARIO>
+    <caronasQueFuncionaram>0</caronasQueFuncionaram>
+    <caronasQueNaoFuncionaram>0</caronasQueNaoFuncionaram>
+    <faltaDeVagas>0</faltaDeVagas>
+    <presencaEmVagas>0</presencaEmVagas>
+    <historicoCaronas class="Lista">
+      <Carona>
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>02/07/2012</data>
+        <hora>12:00</hora>
+        <vagas>0</vagas>
+        <id>10</id>
+        <verificador/>
+      </Carona>
+      <Carona>
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>04/07/2012</data>
+        <hora>16:00</hora>
+        <vagas>2</vagas>
+        <id>20</id>
+        <verificador/>
+      </Carona>
+    </historicoCaronas>
+    <historicoPedidoDeVagasEmCaronas class="Lista"/>
+    <mensagens class="Lista"/>
+    <controleInteressados>
+      <verificador/>
+      <interessesCadastrados class="Map"/>
+    </controleInteressados>
+    <verificador/>
+  </Usuario>
+  <Usuario>
+    <login>bill</login>
+    <senha>bilz@o</senha>
+    <nome>Bill Clinton</nome>
+    <endereco>Hollywood, California</endereco>
+    <email>bill@gmail.com</email>
+    <ID__USUARIO>2</ID__USUARIO>
+    <caronasQueFuncionaram>0</caronasQueFuncionaram>
+    <caronasQueNaoFuncionaram>0</caronasQueNaoFuncionaram>
+    <faltaDeVagas>0</faltaDeVagas>
+    <presencaEmVagas>0</presencaEmVagas>
+    <historicoCaronas class="Lista"/>
+    <historicoPedidoDeVagasEmCaronas class="Lista">
+      <Carona reference="../../../Usuario/historicoCaronas/Carona"/>
+    </historicoPedidoDeVagasEmCaronas>
+    <mensagens class="Lista"/>
+    <controleInteressados reference="../../Usuario/controleInteressados"/>
+    <verificador/>
+  </Usuario>
+</Lista>

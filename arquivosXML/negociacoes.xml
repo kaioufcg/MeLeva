@@ -1,0 +1,63 @@
+<br.edu.ufcg.projetomelevamavem.logicaNegociacao.Negociacao>
+  <verificar/>
+  <sugestoesPontoDeEncontro/>
+  <respostasSugestaoPontoEncontro/>
+  <solicitacoesDeViagem class="Lista">
+    <br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto>
+      <carona class="Carona">
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>02/07/2012</data>
+        <hora>12:00</hora>
+        <vagas>0</vagas>
+        <id>10</id>
+        <verificador/>
+      </carona>
+      <usuario>
+        <login>bill</login>
+        <senha>bilz@o</senha>
+        <nome>Bill Clinton</nome>
+        <endereco>Hollywood, California</endereco>
+        <email>bill@gmail.com</email>
+        <ID__USUARIO>2</ID__USUARIO>
+        <caronasQueFuncionaram>0</caronasQueFuncionaram>
+        <caronasQueNaoFuncionaram>0</caronasQueNaoFuncionaram>
+        <faltaDeVagas>0</faltaDeVagas>
+        <presencaEmVagas>0</presencaEmVagas>
+        <historicoCaronas class="Lista"/>
+        <historicoPedidoDeVagasEmCaronas class="Lista">
+          <Carona reference="../../../carona"/>
+        </historicoPedidoDeVagasEmCaronas>
+        <mensagens class="Lista"/>
+        <controleInteressados>
+          <verificador/>
+          <interessesCadastrados class="Map"/>
+        </controleInteressados>
+        <verificador/>
+      </usuario>
+      <pontos></pontos>
+      <iDSugestao>100</iDSugestao>
+    </br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto>
+    <br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto>
+      <carona class="Carona">
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>04/07/2012</data>
+        <hora>16:00</hora>
+        <vagas>2</vagas>
+        <id>20</id>
+        <verificador/>
+      </carona>
+      <usuario reference="../../br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto/usuario"/>
+      <pontos></pontos>
+      <iDSugestao>200</iDSugestao>
+    </br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto>
+  </solicitacoesDeViagem>
+  <solicitacoesPendentes/>
+  <solicitacoesConfirmadas>
+    <entry>
+      <string>1</string>
+      <br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto reference="../../../solicitacoesDeViagem/br.edu.ufcg.projetomelevamavem.logicaNegociacao.NegociacaoDePonto"/>
+    </entry>
+  </solicitacoesConfirmadas>
+</br.edu.ufcg.projetomelevamavem.logicaNegociacao.Negociacao>
