@@ -1,0 +1,63 @@
+<br.edu.server.logicaNegociacao.Negociacao>
+  <verificar/>
+  <sugestoesPontoDeEncontro/>
+  <respostasSugestaoPontoEncontro/>
+  <solicitacoesDeViagem class="Lista">
+    <NegociacaoDePonto>
+      <carona class="Carona">
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>02/08/2012</data>
+        <hora>12:00</hora>
+        <vagas>0</vagas>
+        <id>10</id>
+        <verificador/>
+      </carona>
+      <usuario>
+        <login>bill</login>
+        <senha>bilz@o</senha>
+        <nome>Bill Clinton</nome>
+        <endereco>Hollywood, California</endereco>
+        <email>bill@gmail.com</email>
+        <ID__USUARIO>2</ID__USUARIO>
+        <caronasQueFuncionaram>0</caronasQueFuncionaram>
+        <caronasQueNaoFuncionaram>0</caronasQueNaoFuncionaram>
+        <faltaDeVagas>0</faltaDeVagas>
+        <presencaEmVagas>0</presencaEmVagas>
+        <historicoCaronas class="Lista"/>
+        <historicoPedidoDeVagasEmCaronas class="Lista">
+          <Carona reference="../../../carona"/>
+        </historicoPedidoDeVagasEmCaronas>
+        <mensagens class="Lista"/>
+        <controleInteressados>
+          <verificador/>
+          <interessesCadastrados class="TreeMap"/>
+        </controleInteressados>
+        <verificador/>
+      </usuario>
+      <pontos></pontos>
+      <iDSugestao>100</iDSugestao>
+    </NegociacaoDePonto>
+    <NegociacaoDePonto>
+      <carona class="Carona">
+        <origem>Campina Grande</origem>
+        <destino>João Pessoa</destino>
+        <data>04/08/2012</data>
+        <hora>16:00</hora>
+        <vagas>2</vagas>
+        <id>20</id>
+        <verificador/>
+      </carona>
+      <usuario reference="../../NegociacaoDePonto/usuario"/>
+      <pontos></pontos>
+      <iDSugestao>200</iDSugestao>
+    </NegociacaoDePonto>
+  </solicitacoesDeViagem>
+  <solicitacoesPendentes/>
+  <solicitacoesConfirmadas>
+    <entry>
+      <string>1</string>
+      <NegociacaoDePonto reference="../../../solicitacoesDeViagem/NegociacaoDePonto"/>
+    </entry>
+  </solicitacoesConfirmadas>
+</br.edu.server.logicaNegociacao.Negociacao>

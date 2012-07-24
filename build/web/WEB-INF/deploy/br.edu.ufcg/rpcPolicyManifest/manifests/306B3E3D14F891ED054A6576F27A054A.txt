@@ -1,0 +1,2 @@
+serviceClass: br.edu.client.RPCServico
+path: 0C0D149BA9A8DFFA11F52D37F0C9FECD.gwt.rpc
